@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Design Hub - Всё о разработке игр</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <img src="img/logo.svg" alt="GameDesign Hub" class="logo-img">
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">
+                            <span class="nav-text">Главная</span>
+                            <span class="nav-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#games" class="nav-link">
+                            <span class="nav-text">Игры</span>
+                            <span class="nav-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#principles" class="nav-link">
+                            <span class="nav-text">Принципы</span>
+                            <span class="nav-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#glossary" class="nav-link">
+                            <span class="nav-text">Глоссарий</span>
+                            <span class="nav-indicator"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#engines" class="nav-link">
+                            <span class="nav-text">Движки</span>
+                            <span class="nav-indicator"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Меню">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Искусство создания игр</h1>
+                <p>Исследуйте мир геймдизайна, изучайте успешные проекты и осваивайте ключевые принципы создания увлекательных игровых миров.</p>
+                <a href="#games" class="cta-button">Начать изучение</a>
+            </div>
+        </section>
+
+        <section id="games" class="featured-games">
+            <h2>Игры с выдающимся геймдизайном</h2>
+            <div class="game-grid">
+                <div class="game-card">
+                    <div class="platforms-overlay">
+                        <div class="platform ps"><i class="fab fa-playstation"></i></div>
+                        <div class="platform xbox"><i class="fab fa-xbox"></i></div>
+                        <div class="platform steam"><i class="fab fa-steam"></i></div>
+                    </div>
+                    <img src="img/1.avif" alt="Red Dead Redemption 2">
+                    <div class="game-info">
+                        <h3>Red Dead Redemption 2</h3>
+                        <div class="game-meta">
+                            <span class="developer">Rockstar Games</span>
+                            <span class="year">2018</span>
+                        </div>
+                        <p class="game-description">Открытый мир с&nbsp;интуитивным управлением и&nbsp;динамичными механиками. Глубокая боевая система, реалистичное взаимодействие с&nbsp;окружением и&nbsp;нелинейные миссии усиливают погружение.</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="platforms-overlay">
+                        <div class="platform ps"><i class="fab fa-playstation"></i></div>
+                        <div class="platform xbox"><i class="fab fa-xbox"></i></div>
+                        <div class="platform steam"><i class="fab fa-steam"></i></div>
+                    </div>
+                    <img src="img/5.webp" alt="Disco Elysium">
+                    <div class="game-info">
+                        <h3>Disco Elysium</h3>
+                        <div class="game-meta">
+                            <span class="developer">ZA/UM</span>
+                            <span class="year">2019</span>
+                        </div>
+                        <p class="game-description">Ролевой детектив с&nbsp;акцентом на&nbsp;диалоги и&nbsp;выбор. Уникальная система навыков, где внутренние черты персонажа влияют на&nbsp;решения, создавая глубокое погружение в&nbsp;сюжет.</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="platforms-overlay">
+                        <div class="platform ps"><i class="fab fa-playstation"></i></div>
+                        <div class="platform xbox"><i class="fab fa-xbox"></i></div>
+                        <div class="platform steam"><i class="fab fa-steam"></i></div>
+                    </div>
+                    <img src="img/2.avif" alt="Persona 5 Royal">
+                    <div class="game-info">
+                        <h3>Persona 5 Royal</h3>
+                        <div class="game-meta">
+                            <span class="developer">Atlus</span>
+                            <span class="year">2019</span>
+                        </div>
+                        <p class="game-description">Стильный JRPG с&nbsp;плавной боевой системой и&nbsp;тактическим планированием. Интерактивный дневной цикл и&nbsp;глубокая кастомизация персонажей усиливают стратегическое погружение.</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="platforms-overlay">
+                        <div class="platform ps"><i class="fab fa-playstation"></i></div>
+                        <div class="platform xbox"><i class="fab fa-xbox"></i></div>
+                        <div class="platform steam"><i class="fab fa-steam"></i></div>
+                    </div>
+                    <img src="img/3.avif" alt="DOOM">
+                    <div class="game-info">
+                        <h3>DOOM</h3>
+                        <div class="game-meta">
+                            <span class="developer">id Software</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <p class="game-description">Открытый мир с&nbsp;глубоким исследованием и&nbsp;сложными сражениями. Гибкая система прокачки и&nbsp;нелинейный геймплей позволяют создавать уникальные сборки персонажей.</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="platforms-overlay">
+                        <div class="platform ps"><i class="fab fa-playstation"></i></div>
+                        <div class="platform xbox"><i class="fab fa-xbox"></i></div>
+                        <div class="platform steam"><i class="fab fa-steam"></i></div>
+                        <div class="platform ios"><i class="fab fa-apple"></i></div>
+                    </div>
+                    <img src="img/4.avif" alt="Hades">
+                    <div class="game-info">
+                        <h3>Hades</h3>
+                        <div class="game-meta">
+                            <span class="developer">Supergiant Games</span>
+                            <span class="year">2020</span>
+                        </div>
+                        <p class="game-description">Рогалик с&nbsp;динамичным боем и&nbsp;глубоким сюжетом. Уникальная система смертей, где каждая попытка раскрывает новую часть истории и&nbsp;укрепляет персонажа.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principles" class="principles">
+            <div class="container">
+                <h2>Основы геймдизайна</h2>
+                <div class="principle-cards">
+                    <div class="principle">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Игровой процесс</h3>
+                        <p>Создавайте увлекательные игровые механики и интерактивные системы, которые удерживают внимание игроков и обеспечивают удовольствие от игры.</p>
+                    </div>
+                    <div class="principle">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Визуальный стиль</h3>
+                        <p>Разрабатывайте уникальную визуальную эстетику, которая отражает атмосферу игры и улучшает игровой опыт.</p>
+                    </div>
+                    <div class="principle">
+                        <i class="fas fa-book"></i>
+                        <h3>Сюжет и нарратив</h3>
+                        <p>Создавайте захватывающие истории и вселенные, которые погружают игроков в игровой мир и мотивируют их к прохождению.</p>
+                    </div>
+                    <div class="principle">
+                        <i class="fas fa-sliders-h"></i>
+                        <h3>Баланс</h3>
+                        <p>Достигайте идеального баланса сложности, наград и прогрессии для удержания интереса игроков.</p>
+                    </div>
+                    <div class="principle">
+                        <i class="fas fa-headset"></i>
+                        <h3>Геймдизайн звука</h3>
+                        <p>Используйте звуковое сопровождение для усиления атмосферы и улучшения игрового процесса.</p>
+                    </div>
+                    <div class="principle">
+                        <i class="fas fa-users"></i>
+                        <h3>Социальное взаимодействие</h3>
+                        <p>Создавайте возможности для социального взаимодействия между игроками.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="glossary" class="glossary-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Глоссарий геймдизайнера</h2>
+                    <p class="section-subtitle">Основные термины и понятия в разработке игр</p>
+                </div>
+                
+                <div class="glossary-filters">
+                    <input type="text" class="search-input" placeholder="Поиск по терминам...">
+                    <div class="filter-tags">
+                        <button class="tag active" data-filter="all">Все</button>
+                        <button class="tag" data-filter="design">Дизайн</button>
+                        <button class="tag" data-filter="mechanics">Механики</button>
+                        <button class="tag" data-filter="tech">Технические</button>
+                    </div>
+                </div>
+
+                <div class="glossary-grid">
+                    <div class="glossary-card" data-category="design">
+                        <div class="card-header">
+                            <h3 class="term">Геймплей</h3>
+                            <span class="category-tag design">Дизайн</span>
+                        </div>
+                        <p class="definition">Совокупность игровых механик и взаимодействий, определяющих игровой процесс и опыт игрока.</p>
+                        <div class="card-footer">
+                            <span class="example">Пример: <em>Геймплей Dark Souls известен своей сложностью.</em></span>
+                        </div>
+                    </div>
+
+                    <div class="glossary-card" data-category="mechanics">
+                        <div class="card-header">
+                            <h3 class="term">НПС</h3>
+                            <span class="category-tag mechanics">Механики</span>
+                        </div>
+                        <p class="definition">Неигровой персонаж, управляемый компьютером, с которым игрок может взаимодействовать.</p>
+                        <div class="card-footer">
+                            <span class="example">Пример: <em>Торговцы и квестодатели в RPG.</em></span>
+                        </div>
+                    </div>
+
+                    <div class="glossary-card" data-category="mechanics">
+                        <div class="card-header">
+                            <h3 class="term">Рогалик</h3>
+                            <span class="category-tag mechanics">Механики</span>
+                        </div>
+                        <p class="definition">Жанр игр с процедурной генерацией уровней и перманентной смертью персонажа.</p>
+                        <div class="card-footer">
+                            <span class="example">Пример: <em>The Binding of Isaac, Dead Cells.</em></span>
+                        </div>
+                    </div>
+
+                    <div class="glossary-card" data-category="tech">
+                        <div class="card-header">
+                            <h3 class="term">Хитбокс</h3>
+                            <span class="category-tag tech">Технические</span>
+                        </div>
+                        <p class="definition">Невидимая зона, определяющая столкновения объектов в игре.</p>
+                        <div class="card-footer">
+                            <span class="example">Пример: <em>Попадание пули в противника.</em></span>
+                        </div>
+                    </div>
+
+                    <div class="glossary-card" data-category="design">
+                        <div class="card-header">
+                            <h3 class="term">Лут</h3>
+                            <span class="category-tag design">Дизайн</span>
+                        </div>
+                        <p class="definition">Игровые предметы, которые можно найти или получить в награду.</p>
+                        <div class="card-footer">
+                            <span class="example">Пример: <em>Оружие, броня, зелья в RPG.</em></span>
+                        </div>
+                    </div>
+
+                    <div class="glossary-card" data-category="mechanics">
+                        <div class="card-header">
+                            <h3 class="term">КД</h3>
+                            <span class="category-tag mechanics">Механики</span>
+                        </div>
+                        <p class="definition">Время перезарядки способности или умения перед повторным использованием.</p>
+                        <div class="card-footer">
+                            <span class="example">Пример: <em>КД в 30 секунд на мощную атаку.</em></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="load-more">
+                    <button class="cta-button">Загрузить еще</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="engines" class="engines-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Игровые движки</h2>
+                    <p class="section-subtitle">Популярные инструменты для создания игр и проекты на них</p>
+                </div>
+
+                <div class="engines-grid">
+                    <!-- Unreal Engine -->
+                    <div class="engine-card">
+                        <div class="engine-logo">
+                            <img src="img/UE-Logotype-2023-Horizontal-Black.svg" alt="Unreal Engine">
+                        </div>
+                        <h3>Unreal Engine</h3>
+                        <div class="engine-meta">
+                            <span class="engine-type">Проприетарный</span>
+                            <span class="engine-company">Epic Games</span>
+                        </div>
+                        <p class="engine-description">Мощный движок с передовой графикой, используемый в AAA-проектах.</p>
+                        <div class="engine-projects">
+                            <h4>Известные проекты:</h4>
+                            <ul>
+                                <li>Fortnite</li>
+                                <li>Unreal Tournament</li>
+                                <li>Borderlands</li>
+                                <li>Batman: Arkham Knight</li>
+                            </ul>
+                        </div>
+                        <a href="https://www.unrealengine.com" target="_blank" class="engine-link">Подробнее</a>
+                    </div>
+
+                    <!-- Unity -->
+                    <div class="engine-card">
+                        <div class="engine-logo">
+                            <img src="img/U_Logo_Small_Black_RGB_1C.svg" alt="Unity">
+                        </div>
+                        <h3>Unity</h3>
+                        <div class="engine-meta">
+                            <span class="engine-type">Проприетарный</span>
+                            <span class="engine-company">Unity Technologies</span>
+                        </div>
+                        <p class="engine-description">Универсальный движок для 2D и 3D игр с кроссплатформенной поддержкой.</p>
+                        <div class="engine-projects">
+                            <h4>Известные проекты:</h4>
+                            <ul>
+                                <li>Hearthstone</li>
+                                <li>Cuphead</li>
+                                <li>Ori and the Blind Forest</li>
+                                <li>Escape from Tarkov</li>
+                            </ul>
+                        </div>
+                        <a href="https://unity.com" target="_blank" class="engine-link">Подробнее</a>
+                    </div>
+
+                    <!-- Godot -->
+                    <div class="engine-card">
+                        <div class="engine-logo">
+                            <img src="img/logo_small_color_light.svg" alt="Godot">
+                        </div>
+                        <h3>Godot</h3>
+                        <div class="engine-meta">
+                            <span class="engine-type">Открытый исходный код</span>
+                            <span class="engine-company">Godot Engine</span>
+                        </div>
+                        <p class="engine-description">Бесплатный и открытый движок с поддержкой 2D и 3D разработки.</p>
+                        <div class="engine-projects">
+                            <h4>Известные проекты:</h4>
+                            <ul>
+                                <li>Brotato</li>
+                                <li>Sonic Colors</li>
+                                <li>Kingdoms of the Dump</li>
+                                <li>Depths of Sanity</li>
+                            </ul>
+                        </div>
+                        <a href="https://godotengine.org" target="_blank" class="engine-link">Подробнее</a>
+                    </div>
+
+                    <!-- GameMaker Studio -->
+                    <div class="engine-card">
+                        <div class="engine-logo">
+                            <img src="img/GameMaker_Logo_BlackOnWhite.svg" alt="GameMaker Studio">
+                        </div>
+                        <h3>GameMaker</h3>
+                        <div class="engine-meta">
+                            <span class="engine-type">Проприетарный</span>
+                            <span class="engine-company">Opera</span>
+                        </div>
+                        <p class="engine-description">Идеальный выбор для 2D-игр с визуальным программированием.</p>
+                        <div class="engine-projects">
+                            <h4>Известные проекты:</h4>
+                            <ul>
+                                <li>Undertale</li>
+                                <li>Hyper Light Drifter</li>
+                                <li>Hotline Miami</li>
+                                <li>Katana ZERO</li>
+                            </ul>
+                        </div>
+                        <a href="https://gamemaker.io" target="_blank" class="engine-link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <a href="index.html" class="footer-logo">
+                    <img src="img/logo.svg" alt="Game Informed" class="logo-img">
+                </a>
+                <div class="contact-email">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@gameinformed.io">info@gameinformed.io</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn "><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Навигация</h4>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#games">Игры</a></li>
+                    <li><a href="#principles">Принципы</a></li>
+                    <li><a href="#glossary">Глоссарий</a></li>
+                    <li><a href="#engines">Движки</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Ресурсы</h4>
+                <ul>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Уроки</a></li>
+                    <li><a href="#">Форум</a></li>
+                    <li><a href="#">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">Copyright &copy; Game Informed, 2025 г. Все права защищены.</p>
+                <div class="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
